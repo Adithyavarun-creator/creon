@@ -14,7 +14,7 @@ const Vision = () => {
     //        <div className='flex flex-col md:flex-row justify-between gap-2 border border-red-500'>
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-2 border border-red-500'>
+        <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-2'>
             <div className='flex flex-col lg:col-span-1 gap-10'>
                 <h2 className='font-monument text-white text-xl md:text-2xl lg:text-4xl uppercase'>our vison is to <br /> support the innovation <br /> of ai blockchain <br /> projects&nbsp;
                     <span className='bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text'>while <br /> prioritizing communities <br /> and democratizing <br /> profits</span></h2>
@@ -30,7 +30,7 @@ const Vision = () => {
             </div>
 
 
-            <div className='p-2 flex flex-col lg:col-span-1 gap-8 border border-red-500'>
+            <div className='p-2 flex flex-col lg:col-span-1 gap-8'>
                 <div className="flex flex-col md:flex-row mt-3 md:row gap-2 md:gap-4">
                     <div className='flex justify-center md:block'>
                         <Image

@@ -12,7 +12,7 @@ import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
 
-    const [toggle, setToggle] = useState<boolean>(false)
+    const [mobile, setMobile] = useState<boolean>(false)
 
     return (
         <>
@@ -49,18 +49,18 @@ const Navbar = () => {
                 <div
                 >
                     <MdMenu className="text-white h-7 w-10"
-                        onClick={() => setToggle(!toggle)}
+                        onClick={() => setMobile(true)}
                     />
                 </div>
 
                 {
-                    toggle &&
+                    mobile &&
                     <div className="z-30 bg-white h-[100vh] absolute top-0 right-0 w-1/2">
                         <div className="flex flex-col gap-6 p-6 justify-center items-center">
                             <div className="flex gap-3 items-center">
                                 <button className="text-white border border-white text-center text-sm px-4 py-1 rounded-md">Connect</button>
                                 <IoClose
-                                    onClick={() => setToggle(false)}
+                                    onClick={() => setMobile(false)}
                                     className="h-7 w-7 p-1 bg-blue-500 text-white rounded-sm" />
                             </div>
 
