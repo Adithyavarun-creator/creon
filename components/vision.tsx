@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { useState } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
-import { Icon1, Icon2, Icon3, Icon4 } from '@/public/assets';
+import { CreonImage, Icon1, Icon2, Icon3, Icon4 } from '@/public/assets';
 
 
 const Vision = () => {
@@ -18,7 +18,7 @@ const Vision = () => {
                     <span className='bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text'>while <br /> prioritizing communities <br /> and democratizing <br /> profits</span></h2>
                 <div className='flex justify-end'>
                     <Image
-                        src="/assets/creonimage.png"
+                        src={CreonImage}
                         alt='creon'
                         height={836}
                         width={502}

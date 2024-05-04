@@ -12,6 +12,7 @@ import Icon3 from "./icons/icon3.png";
 import Icon4 from "./icons/icon4.png";
 
 import Logo from "./logo.png";
+import CreonImage from "./creonimage.png";
 
 export {
   cardImage1,
@@ -25,4 +26,5 @@ export {
   Icon3,
   Icon4,
   Logo,
+  CreonImage,
 };
