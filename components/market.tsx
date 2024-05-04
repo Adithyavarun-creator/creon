@@ -19,12 +19,12 @@ const Market = () => {
                             </div>
                         </div>
                         <div className='block md:col-span-1'>
-                            <div className=''>
+                            <div className='overflow-hidden'>
                                 <Image src={data.image}
                                     alt=""
                                     height={302}
                                     width={453}
-                                    className='object-cover rounded-r-lg'
+                                    className='object-cover rounded-r-lg cursor-pointer transition duration-300 ease-in-out hover:scale-110'
                                 />
                             </div>
                         </div>

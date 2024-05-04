@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import { useState } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
-import { visionDatas } from './data';
 import { Icon1, Icon2, Icon3, Icon4 } from '@/public/assets';
 
 
@@ -11,7 +10,6 @@ const Vision = () => {
 
 
     const [open, setOpen] = useState<boolean>(true)
-    //        <div className='flex flex-col md:flex-row justify-between gap-2 border border-red-500'>
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-2'>
@@ -49,7 +47,7 @@ const Vision = () => {
                             <div>
                                 <IoIosArrowUp
                                     onClick={() => setOpen(!open)}
-                                    className={`h-4 w-4 text-white ${open ? 'rotate-180' : ''}`}
+                                    className={`h-4 w-4 text-white ${open ? 'rotate-180' : ''} hover:bg-gray-600 rounded-full cursor-pointer`}
                                 />
                             </div>
 

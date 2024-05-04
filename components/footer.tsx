@@ -2,7 +2,7 @@ import { FaTelegramPlane, FaDiscord, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col md:flex-row h-5 justify-between items-center">
+        <footer className="flex flex-col md:flex-row h-5 justify-between items-center p-6 mb-5">
             <div className="flex flex-col md:flex-row gap-4 items-center md:gap-20">
                 <div>
                     <p className="text-white text-xs md:text-sm font-satoshiregular">© Creon 2023. All rights reserved.</p>

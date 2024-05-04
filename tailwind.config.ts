@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         monument: ["Monument Extended Bold", "sans-serif"],
+        satoshibold: ["Satoshi-Bold", "sans-serif"],
+        satoshiregular: ["Satoshi-Regular", "sans-serif"],
+        satoshimedium: ["Satoshi-Medium", "sans-serif"],
       },
     },
     screens: {
