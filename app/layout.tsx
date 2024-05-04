@@ -28,4 +28,3 @@ export default function RootLayout({
 }
 
 
-//          className="bg-no-repeat bg-cover bg-center bg-[url('/assets/header-bg.png')] w-full h-[970px]">

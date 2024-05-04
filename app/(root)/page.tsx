@@ -12,8 +12,23 @@ import React from 'react'
 const Homepage = () => {
     return (
 
-        <div className='flex flex-col gap-1 md:gap-4 absolute top-0 right-0 left-0'>
-            <Header />
+        // <div className='flex flex-col gap-1 md:gap-4 absolute top-0 right-0 left-0'>
+        //     <Header />
+        //     <div className='flex flex-col gap-20 md:gap-36 lg:gap-40 px-6 md:px-40 lg:px-60'>
+        //         <PassNFT />
+        //         <Profit />
+        //         <Vision />
+        //         <Cards />
+        //         <Market />
+        //         <Footer />
+        //     </div>
+        // </div>
+
+        //<div className='flex flex-col gap-20 md:gap-36 lg:gap-40 px-6 md:px-40 lg:px-60'>
+        <div>
+            <div className='mb-[400px] md:mb-[10px] lg:mb-[350px]'>
+                <Header />
+            </div>
             <div className='flex flex-col gap-20 md:gap-36 lg:gap-40 px-6 md:px-40 lg:px-60'>
                 <PassNFT />
                 <Profit />
@@ -22,6 +37,14 @@ const Homepage = () => {
                 <Market />
                 <Footer />
             </div>
+            {/* <div className='flex flex-col gap-20 md:gap-36 lg:gap-40 px-6 md:px-40 lg:px-60'>
+                <PassNFT />
+                <Profit />
+                <Vision />
+                <Cards />
+                <Market />
+                <Footer />
+            </div> */}
         </div>
 
 
