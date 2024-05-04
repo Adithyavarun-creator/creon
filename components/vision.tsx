@@ -11,11 +11,12 @@ const Vision = () => {
 
 
     const [open, setOpen] = useState<boolean>(true)
+    //        <div className='flex flex-col md:flex-row justify-between gap-2 border border-red-500'>
 
     return (
-        <div className='flex flex-col md:flex-row justify-center gap-2'>
-            <div className='flex flex-col gap-10'>
-                <h2 className='font-monument text-white text-xl md:text-2xl uppercase'>our vison is to <br /> support the innovation <br /> of ai blockchain <br /> projects&nbsp;
+        <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-2 border border-red-500'>
+            <div className='flex flex-col lg:col-span-1 gap-10'>
+                <h2 className='font-monument text-white text-xl md:text-2xl lg:text-4xl uppercase'>our vison is to <br /> support the innovation <br /> of ai blockchain <br /> projects&nbsp;
                     <span className='bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text'>while <br /> prioritizing communities <br /> and democratizing <br /> profits</span></h2>
                 <div className='flex justify-end'>
                     <Image
@@ -29,7 +30,7 @@ const Vision = () => {
             </div>
 
 
-            <div className='flex flex-col gap-8'>
+            <div className='p-2 flex flex-col lg:col-span-1 gap-8 border border-red-500'>
                 <div className="flex flex-col md:flex-row mt-3 md:row gap-2 md:gap-4">
                     <div className='flex justify-center md:block'>
                         <Image
@@ -38,7 +39,7 @@ const Vision = () => {
                             alt=''
                         />
                     </div>
-                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] '>
+                    <div className='flex flex-col p-4 gap-2 w-full md:w-[300px]'>
                         <div className='flex justify-between'>
                             <div>
                                 <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
@@ -142,34 +143,6 @@ const Vision = () => {
                             <div>
                                 <IoIosArrowDown
                                     className='h-4 w-4 text-white rotate-180'
-                                />
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div className="flex flex-col md:flex-row mt-3 md:row gap-2 md:gap-4">
-                    <div className='flex justify-center md:block'>
-                        <Image
-                            src={Icon1}
-                            className='object-cover w-12 h-12 md:w-14 md:h-14'
-                            alt=''
-                        />
-                    </div>
-                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] '>
-                        <div className='flex justify-between'>
-                            <div>
-                                <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
-                                    Profitability and Growth
-                                </h4>
-                            </div>
-                            <div>
-                                <IoIosArrowDown
-                                    className={`h-4 w-4 text-white ${open ? 'rotate-180' : ''}`}
                                 />
                             </div>
 

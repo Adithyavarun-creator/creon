@@ -2,7 +2,7 @@ import React from 'react'
 
 const Profit = () => {
     return (
-        <div className='flex flex-col gap-5 md:gap-24 w-full'>
+        <div className='mt-10 flex flex-col gap-5 md:gap-24 w-full'>
             <div className='flex flex-col gap-3'>
                 <div>
                     <h2 className='uppercase font-monument text-white text-3xl md:text-5xl'>profiting through</h2>

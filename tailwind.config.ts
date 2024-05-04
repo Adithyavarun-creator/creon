@@ -9,10 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Satoshi-Bold", "sans-serif"],
-        // satoshibold: ["Satoshi-Bold", "sans-serif"],
-        satoshiregular: ["Satoshi-Regular", "sans-serif"],
-        satoshimedium: ["Satoshi-Medium", "sans-serif"],
         monument: ["Monument Extended Bold", "sans-serif"],
       },
     },
