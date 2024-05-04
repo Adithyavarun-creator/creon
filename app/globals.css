@@ -1,33 +1,105 @@
+@import url(https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold);
+
+/* @font-face {
+  font-family: "Satoshi-Regular";
+  src: url("/public/fonts/Satoshi-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("/public/fonts/Satoshi-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("/public/fonts/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../public/fonts/Satoshi-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../public/fonts/Satoshi-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../public/fonts/Satoshi-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Monument Extended Bold";
+  src: url("/public/fonts/MonumentExtended-Bold.woff2") format("woff2");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #000000;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gradient {
+  @apply bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%;
+}
+
+.lgradient {
+  background: linear-gradient(to top, #000000 0%, #3d8bff 47%, #ab23ff 99%);
+  opacity: 0.5;
+}
+/* 
+@font-face {
+  font-family: "MonumentExtended Regular";
+  src: url("/public/fonts/MonumentExtended-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi Regular";
+  src: url("/public/fonts/Satoshi-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi Medium";
+  src: url("/public/fonts/Satoshi-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url("/public/fonts/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+} */
+
+.hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border: 2px solid #333;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
 }

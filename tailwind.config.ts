@@ -8,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        custom: ["Satoshi-Bold", "sans-serif"],
+        // satoshibold: ["Satoshi-Bold", "sans-serif"],
+        satoshiregular: ["Satoshi-Regular", "sans-serif"],
+        satoshimedium: ["Satoshi-Medium", "sans-serif"],
+        monument: ["Monument Extended Bold", "sans-serif"],
       },
+    },
+    screens: {
+      sm: "576px",
+      md: "960px",
+      lg: "1440px",
     },
   },
   plugins: [],
