@@ -54,7 +54,7 @@ const Nav = () => {
                 </div>
 
 
-                <div className="-z-[10] absolute top-0 right-0 left-0 flex flex-col">
+                <div className={`-z-[10] ${mobile ? 'blur-sm' : ''} absolute top-0 right-0 left-0 flex flex-col`}>
                     <div className='h-[400px] bg-gradient-to-t md:from-[#000000] md:to-[#c274f3]'>
                         <video src="/assets/videos/main-background-video.mp4" autoPlay loop muted
                             className='mix-blend-overlay' />
@@ -73,7 +73,7 @@ const Nav = () => {
 
                 {
                     mobile &&
-                    <div className="bg-black flex flex-col justify-between h-screen border-l-4 border-white absolute top-0 right-0 w-1/2">
+                    <div className="bg-black flex flex-col justify-between h-screen border-l-4 border-white fixed top-0 right-0 w-1/2">
 
                         <div className="flex flex-col gap-6 p-6 justify-center items-center">
                             <div className="flex gap-3 items-center">

@@ -14,7 +14,7 @@ const Homepage = () => {
 
         <>
             <Head />
-            <div className="mb-[20px] md:mb-[10px] lg:mb-[50px]"></div>
+            <div className="mb-[120px] md:mb-[10px] lg:mb-[50px]"></div>
             <div className='flex flex-col gap-20 md:gap-36 lg:gap-40 px-6 md:px-40 lg:px-60'>
                 <PassNFT />
                 <Profit />
