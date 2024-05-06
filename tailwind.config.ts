@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,10 +11,13 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        monument: ["Monument Extended Bold", "sans-serif"],
-        satoshibold: ["Satoshi-Bold", "sans-serif"],
-        satoshiregular: ["Satoshi-Regular", "sans-serif"],
-        satoshimedium: ["Satoshi-Medium", "sans-serif"],
+        satoshibold: ["Satoshi Bold", ...defaultTheme.fontFamily.sans],
+        satoshiregular: ["Satoshi Regular", ...defaultTheme.fontFamily.sans],
+        satoshimedium: ["Satoshi Medium", ...defaultTheme.fontFamily.sans],
+        monument: [
+          "Monument Extended Regular",
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     },
     screens: {

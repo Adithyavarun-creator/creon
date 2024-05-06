@@ -24,7 +24,7 @@ const Nav = () => {
                     <div className="flex items-center gap-10  cursor-pointer pr-5">
                         {navbarLinks.map((nav) => (
                             <div className="flex items-center" key={nav.id}>
-                                <h3 className="text-white md:text-sm lg:text-xl font-semibold cursor-pointer">{nav.name}</h3>
+                                <h3 className="text-white md:text-sm lg:text-xl font-satoshibold cursor-pointer">{nav.name}</h3>
                                 {nav.coming && <span className="ml-2 relative -top-2 flex font-semibold items-center text-xs uppercase bg-black rounded-2xl p-1.5 text-[#AB23FF]">Soon</span>
                                 }
                             </div>
@@ -39,7 +39,7 @@ const Nav = () => {
 
 
             {/* Mobile screens */}
-            <nav className="md:hidden z-[9999] relative flex justify-between items-center py-4 px-8">
+            <nav className="md:hidden z-[9999] relative flex justify-between items-center p-8">
                 <div>
                     <Image src={Logo}
                         className="w-full h-7 object-contain cursor-pointer" alt=""
@@ -59,7 +59,7 @@ const Nav = () => {
                         <video src="/assets/videos/main-background-video.mp4" autoPlay loop muted
                             className='mix-blend-overlay' />
                     </div>
-                    <div className="-mt-[200px] md:mt-0 flex flex-col gap-5 px-4">
+                    <div className="-mt-[200px] md:mt-0 flex flex-col gap-5 px-8">
                         <h2 className='text-white font-monument text-xl md:text-4xl lg:text-6xl font-semibold uppercase'>the world's first <br />
                             platform for tokenizing <br /> ai blockchain projects</h2>
 
@@ -77,7 +77,7 @@ const Nav = () => {
 
                         <div className="flex flex-col gap-6 p-6 justify-center items-center">
                             <div className="flex gap-3 items-center">
-                                <button className="text-white border border-white text-center text-sm px-4 py-1 rounded-md">Connect</button>
+                                <button className="text-white border border-white font-satoshibold text-center text-sm px-4 py-1 rounded-md">Connect</button>
                                 <IoClose
                                     onClick={() => setMobile(false)}
                                     className="h-7 w-7 p-1 bg-blue-500 text-white rounded-sm" />
@@ -89,7 +89,7 @@ const Nav = () => {
                                         <div
                                             key={link.id}
                                             className="flex p-5 w-full border-t-2 border-gray-900">
-                                            <span className="text-white font-satoshibold text-xs">{link.name}</span>
+                                            <span className="text-white font-satoshibold  text-sm">{link.name}</span>
                                             {link.coming && <span className="ml-2 relative -top-2 flex font-semibold items-center text-xs uppercase bg-black rounded-2xl p-1.5 text-[#AB23FF]">Soon</span>
                                             }
                                         </div>

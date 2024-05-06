@@ -37,10 +37,10 @@ const Vision = () => {
                             alt=''
                         />
                     </div>
-                    <div className='flex flex-col p-4 gap-2 w-full md:w-[300px]'>
+                    <div className='flex flex-col p-4 gap-2 w-full md:w-[300px] lg:w-[520px]'>
                         <div className='flex justify-between'>
                             <div>
-                                <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
+                                <h4 className='text-white text-xs lg:text-xl md:text-sm font-semibold font-satoshibold'>
                                     Profitability and Growth
                                 </h4>
                             </div>
@@ -53,7 +53,7 @@ const Vision = () => {
 
                         </div>
                         {open && <div className="">
-                            <article className='text-white text-xs md:text-sm'>
+                            <article className='text-white font-satoshiregular text-xs md:text-sm'>
                                 At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.
                             </article>
                         </div>}
@@ -70,10 +70,10 @@ const Vision = () => {
                             alt=''
                         />
                     </div>
-                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] '>
+                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] lg:w-[520px] '>
                         <div className='flex justify-between'>
                             <div>
-                                <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
+                                <h4 className='text-white text-xs lg:text-xl md:text-sm font-semibold font-satoshibold'>
                                     Transparent & Fair Decentralized Earnings
                                 </h4>
                             </div>
@@ -100,10 +100,10 @@ const Vision = () => {
                             alt=''
                         />
                     </div>
-                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] '>
+                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] lg:w-[520px] '>
                         <div className='flex justify-between'>
                             <div>
-                                <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
+                                <h4 className='text-white text-xs lg:text-xl md:text-sm font-semibold font-satoshibold'>
                                     Launching the
                                     future
                                 </h4>
@@ -130,10 +130,10 @@ const Vision = () => {
                             alt=''
                         />
                     </div>
-                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] '>
+                    <div className='flex flex-col p-4  gap-2 w-full md:w-[300px] lg:w-[520px] '>
                         <div className='flex justify-between'>
                             <div>
-                                <h4 className='text-white text-xs md:text-sm font-semibold font-satoshibold'>
+                                <h4 className='text-white text-xs lg:text-xl md:text-sm font-semibold font-satoshibold'>
                                     Limitless Possibilities of AI
                                     & Crypto
                                 </h4>

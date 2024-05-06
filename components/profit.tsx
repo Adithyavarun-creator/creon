@@ -8,7 +8,7 @@ const Profit = () => {
                     <h2 className='uppercase font-monument text-white text-3xl md:text-5xl'>profiting through</h2>
                 </div>
                 <div className='flex justify-start md:justify-end'>
-                    <h4 className='uppercase font-monument font-semibold bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text text-xl md:text-2xl'>ai innovation & decentralization</h4>
+                    <h4 className='uppercase font-monument font-semibold bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text text-xl md:text-2xl lg:text-4xl'>ai innovation & decentralization</h4>
                 </div>
             </div>
 
@@ -17,12 +17,12 @@ const Profit = () => {
                 <div className='bg-gradient-to-t from-[#000000] to-[#c274f3]'>
                     <video src="/assets/videos/creon-logo.mp4" autoPlay loop muted className='mix-blend-overlay' />
                 </div>
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-2 lg:gap-4'>
                     <div>
-                        <h4 className='text-white text-sm font-satoshibold font-semibold'>The dynamic community driven <br /> business model of the future.</h4>
+                        <h4 className='text-white text-sm font-satoshibold font-semibold lg:text-xl'>The dynamic community driven <br /> business model of the future.</h4>
                     </div>
                     <div>
-                        <span className='text-white font-satoshiregular text-xs'>
+                        <span className='text-white font-satoshiregular text-xs lg:text-sm'>
                             At Creon, we blend the power of AI tools with the dynamic crypto and NFT markets, utilizing an innovative business model to drive profitability. This approach empowers our community, as our NFT and token holders directly benefit from the growth and prosperity of the Creon network, creating a win-win scenario for both our community and for the projects we launch.
                         </span>
                     </div>

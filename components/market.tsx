@@ -13,7 +13,7 @@ const Market = () => {
                                 <h1 className='font-monument uppercase text-white text-xl'>
                                     {data.title}
                                 </h1>
-                                <article className='text-white text-xs font-satoshiregular'>
+                                <article className='text-white text-xs lg:text-sm font-satoshiregular'>
                                     {data.description}
                                 </article>
                             </div>

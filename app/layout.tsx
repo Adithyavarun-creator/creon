@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-satoshibold" >
+      <body className="" >
         <Nav />
         {children}
       </body>

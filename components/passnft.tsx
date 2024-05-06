@@ -8,15 +8,15 @@ const PassNFT = () => {
                     <h2 className='text-white font-monument uppercase text-5xl'>Creon Pass NFT</h2>
                 </div>
                 <div>
-                    <h4 className='text-basw font-satoshibold font-semibold bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui commodi obcaecati vitae natus? Dolore laboriosam asperiores repudiandae assumenda esse placeat?
+                    <h4 className='text-base lg:text-xl font-satoshibold font-semibold bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] text-transparent bg-clip-text'>
+                        The Creon NFT pass unlocks access to AI projects, the Creon launchpad, and a ticket to generate passive income through AI-driven tools
                     </h4>
                 </div>
                 <div className='flex flex-col gap-7 px-3'>
-                    <span className='text-white font-satoshiregular text-sm'>Pre launch ivestment opportunities for upcoming AI projects</span>
-                    <span className='text-white font-satoshiregular text-sm'>Free and early access to Creon built AI projects</span>
-                    <span className='text-white font-satoshiregular text-sm'>Higer allocation limits on Creon AI launchpads</span>
-                    <span className='text-white font-satoshiregular text-sm'>Revenue share distribution from Creon built AI projects</span>
+                    <span className='text-white font-satoshiregular text-sm lg:text-xl'>Pre launch ivestment opportunities for upcoming AI projects</span>
+                    <span className='text-white font-satoshiregular text-sm lg:text-xl'>Free and early access to Creon built AI projects</span>
+                    <span className='text-white font-satoshiregular text-sm lg:text-xl'>Higer allocation limits on Creon AI launchpads</span>
+                    <span className='text-white font-satoshiregular text-sm lg:text-xl'>Revenue share distribution from Creon built AI projects</span>
                 </div>
                 <div>
                     <button className='p-3 w-full text-center font-satoshibold font-semibold text-white bg-gradient-to-r from-[#3D8BFF] to-[#AB23FF] rounded-md'>Buy Creon Pass</button>
